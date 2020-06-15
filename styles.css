@@ -1,0 +1,123 @@
+body{
+      font-family:  'PT Sans Narrow';
+}
+h1{
+      font-family:  'PT Sans Narrow';
+      font-height :1.5;
+      text-align: center;
+      font-size: 3.5rem;
+}
+p{
+    font-family:  'PT Sans Narrow';
+    /* text-align: center; */
+
+}
+a{
+      text-decoration: none;
+      color: #3f3f44;
+}
+
+
+/* Heading Section */
+.big-heading{
+    font-family:  'PT Sans Narrow';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
+#title{
+          background-color: #cceabb;
+          color: #3f3f44;
+          font-family: 'PT Sans Narrow', sans-serif;
+  }
+.title-img{
+            width: 100%;
+            /* position: absolute;
+            text-align: right; */
+}
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+
+/* Navbar Section */
+.nav-link{
+      color: #3f3f44;
+      font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar-brand{
+      color:#3f3f44;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 2.5rem;
+      font-weight: bold;
+}
+.nav-item{
+      padding: 1rem;
+}
+
+
+/* Feature Section */
+
+
+#features{
+    position: relative;
+    background-color: #f7f7f7;
+}
+.features-box{
+    padding: 5% ;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3f3f44;
+}
+.feature-title{
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-size: 1.5rem;
+     font-weight: bold;
+     text-align: center;
+
+}
+.feature-icon{
+      color: #cceabb;
+}
+
+/* Big heading */
+.big-heading{
+    padding : 5%;
+    text-align: center;
+}
+
+/* Helpline Section */
+
+
+#helpline-section{
+    text-align: center;
+    background-color: #cceabb;
+    padding: 7% 15%;
+    font-size: 1rem;
+}.btn{
+      background-color: #3f3f44;
+}
+.btn:hover{
+      background-color: grey;
+}
+
+/* Footer Section */
+#footer{
+      background-color: #f7f7f7;
+      text-align: center;
+      padding: 7% 15%;
+      font-size: 1rem;
+      padding: 2.5rem 0 0;
+}
+ .social-icon{
+    padding: 0 10px 0 0;
+    text-align: center;
+}
